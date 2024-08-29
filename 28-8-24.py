@@ -1,3 +1,76 @@
+#membership checking
+# in and not in returns boolean value
+s="learning python"
+print("l" in s)
+print("python" in s)
+print("x" not in s)
+
+# replace()
+
+fname="pawan kalyan"
+name=fname.replace("pawan","CM")
+print(name)
+
+# join()
+
+s=["ram","shamyam","hari","ravi"]
+l="-".join(s)
+print(l) #ram-shamyam-hari-ravi
+
+# endswith() startswith()
+
+mail="gsaiteja2020@gmail.com"
+website="https://skywavessoftware.com"
+
+print(mail.endswith("@gmail.com"))
+print(website.startswith("https://"))
+
+# changing case of a string
+
+# upper()
+s="Learning python"
+print(s.upper()) #LEARNING PYTHON
+# lower
+s="LEARNING PYTHON"
+print(s.upper())#LEARNING PYTHON
+# swapcase()
+s="LearNinG pYtHon"
+print(s.swapcase())#lEARnINg PyThON
+# title
+s="learning python"
+print(s.title())#Learning Python
+# capitalize
+s="learning python"
+print(s.capitalize())#Learning python
+
+# how to check type of a character present ina string
+#isalnum()
+n="1223"
+print(n.isalnum())
+# isalpha()
+c="asmamsks"
+print(c.isalpha())
+# isdigit()
+d="1234"
+print(d.isdigit())
+# isupper()
+char="A"
+print(char.isupper())
+# islower()
+char="a"
+print(char.islower())
+# istitle()
+char="Len Ten Lin"
+print(char.istitle())
+# isspace()
+space="  "
+print(space.isspace())
+
+
+
+
+# ----------------------------------------------------------------------------------------------------------------------
+
 
             # Python Program to count occurrence of a given characters in string.
 
