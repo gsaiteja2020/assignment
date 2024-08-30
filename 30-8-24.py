@@ -1,2 +1,1 @@
-print("hello")
-print("new")
+print("hellow")
