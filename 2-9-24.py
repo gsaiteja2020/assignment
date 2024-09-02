@@ -71,12 +71,37 @@ print(c) '''
 
 # write a python program to add an item to the tuple ? 
 
-t = (1, 2, 3)
+'''t = (1, 2, 3)
 l = list(t)
 l.append(4)
 t = tuple(l)
-print(t) 
+print(t) '''
 
 
 # Write a python proram to convert tuple into a string ?
+
+'''t = ('hello', 'world')
+string = ''.join(t)
+
+print(string) 
+'''
+
 # Write a python program to find most frequent element in tuple ?
+
+'''t = (1, 2, 2, 3, 3, 3, 4, 4, 4, 4)
+most_frequent_element = None
+max_count = 0
+
+for item in t:
+    
+    current_count = 0
+    for element in t:
+        if element == item:
+            current_count += 1
+
+    
+    if current_count > max_count:
+        max_count = current_count
+        most_frequent_element = item
+
+print(most_frequent_element) ''' 
