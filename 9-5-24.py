@@ -118,10 +118,11 @@ print(dict1)'''
 
 # Write  a python program to sort dictionary by keys or values ?
 
-
+'''
 dict45 = {'b': 2, 'a': 1, 'd': 4, 'c': 3}
 sorted_by_keys = dict(sorted(dict45.items()))
 print("Dictionary sorted by keys:", sorted_by_keys)
+'''
 
 # Write a Python program to create a dictionary from a string.  Note: Track the count of the letters from the string.
 # Sample string : 'w3resource'
