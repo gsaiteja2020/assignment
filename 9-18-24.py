@@ -35,3 +35,4 @@ for i in range (10):
 l=["ram","shyam","hari","giri","sai"]
 for i in range(3):
     print(random.choice(l))
+

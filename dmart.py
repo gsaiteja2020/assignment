@@ -8,7 +8,7 @@ for product, price in products.items():
 
 
 while True:
-    item = input("\nEnter product name (or 'done' to finish): ").capitalize()
+    item = input("\nEnter product name (or 'done' to finish): ")
     if item.lower() == 'done':
         break
     if item in products:
