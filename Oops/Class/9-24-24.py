@@ -14,4 +14,3 @@ i.display()
 
 shirt=Product("netplay",1500)
 shirt.display()
-
