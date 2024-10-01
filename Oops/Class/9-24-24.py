@@ -4,6 +4,7 @@ class Product:
         self.name=name
         self.price=price
     
+    
     def display(self):
         print("product name is ",self.name)
         print("product price is ",self.price)
