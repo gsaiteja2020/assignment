@@ -30,6 +30,7 @@ class Child2(Father):
         super().__init__()
         self.sland= self.fland+10
         print(self.sland)
+        
 
 obj=Child2()
 
@@ -85,4 +86,16 @@ obj.m1()
 obj.m2()
 obj.dispaly()
 obj.m3()
+
+# hieracical inheritance
+class Z:
+    pass
+
+class Y(Z):
+    pass
+
+class X(Z):
+    pass
+
+
 
